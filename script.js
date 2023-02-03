@@ -26,8 +26,8 @@ for (let i = 0; i < 5; i++){
 
 function addNum(){
     tbl = document.body.firstChild.nextElementSibling.nextElementSibling
-    lastRow = tbl.firstElementChild.lastChild.children.length
-    console.log(lastRow)
+    lastRow = tbl.lastElementChild.children.length
+    console.log(tbl, lastRow)
     if (lastRow !== 6){
         td = tr.insertCell()
         td.appendChild(document.createTextNode(getNumber(100)))
