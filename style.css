@@ -1,0 +1,9 @@
+table{
+    width: 100%; 
+    color: white; 
+    border-spacing: 1px; 
+}
+td, td {
+    background: rgb(175, 5, 5); 
+    padding: 5px;
+}
